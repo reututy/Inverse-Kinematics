@@ -1,0 +1,26 @@
+﻿Build started 26/02/2019 17:46:55.
+     1>Project "C:\Users\reutsh\Desktop\New folder\Inverse-Kinematics\engine\engine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\reutsh\Desktop\New folder\Inverse-Kinematics\engine" /I"C:\Users\reutsh\Desktop\New folder\Inverse-Kinematics\engine/includes" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\engine.pdb" /Gd /TP /analyze- /errorReport:prompt mesh.cpp obj_loader.cpp shader.cpp texture.cpp
+         texture.cpp
+     1>c:\users\reutsh\desktop\new folder\inverse-kinematics\engine\texture.cpp(21): warning C4838: conversion from 'int' to 'GLenum' requires a narrowing conversion
+         shader.cpp
+     1>c:\users\reutsh\desktop\new folder\inverse-kinematics\engine\shader.cpp(62): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+         obj_loader.cpp
+     1>c:\users\reutsh\desktop\new folder\inverse-kinematics\engine\obj_loader.cpp(401): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+         mesh.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\reutsh\Desktop\New folder\Inverse-Kinematics\engine" /I"C:\Users\reutsh\Desktop\New folder\Inverse-Kinematics\engine/includes" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\engine.pdb" /Gd /TC /analyze- /errorReport:prompt stb_image.c
+         stb_image.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\reutsh\Desktop\New folder\Inverse-Kinematics\Debug\engine.lib" /NOLOGO Debug\mesh.obj
+         Debug\obj_loader.obj
+         Debug\shader.obj
+         Debug\stb_image.obj
+         Debug\texture.obj
+         engine.vcxproj -> C:\Users\reutsh\Desktop\New folder\Inverse-Kinematics\Debug\engine.lib
+     1>Done Building Project "C:\Users\reutsh\Desktop\New folder\Inverse-Kinematics\engine\engine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.38
